@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="image_converter_sh" pkg="simple_topics_extraction" type="rgb_images.sh" output="screen"/>
+    <node name="image_converter" pkg="image_extraction" type="rgb_image_compressor" output="screen" launch-prefix="taskset -c 2"/>
+</launch>

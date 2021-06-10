@@ -36,5 +36,4 @@ To start the extraction,type:
 roslaunch image_extraction save_video.launch 
 
 ```
-## Build Source
-[Click here to build it!](Build.md)
+
