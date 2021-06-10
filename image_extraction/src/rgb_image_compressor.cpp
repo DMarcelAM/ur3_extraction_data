@@ -36,8 +36,8 @@ public:
 		//compression_params_.push_back(CV_IMWRITE_PXM_BINARY);
 
 		// dir_path_ = "/catkin_ws/src/erc_data_extraction/image_extraction/data/";
-		dir_path1_ = "/home/lsi04/data/rgb1/";
-		dir_path2_ = "/home/lsi04/data/rgb2/";
+		dir_path1_ = "/root/data/rgb1/";
+		dir_path2_ = "/root/data/rgb2/";
 		cnt_ = 0;
 		filepath_indicator_ = 1;									
 	}
